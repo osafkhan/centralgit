@@ -1,16 +1,5 @@
-variable "aws_region" {
-  description = "AWS region"
+variable "instance_ami" {
+  description = "ID of the AMI used"
   type        = string
-  default     = "eu-central-1"
-}
- 
-variable "owner" {
-  description = "Configuration owner"
-  type        = string
-}
- 
-variable "aws_region_az" {
-  description = "AWS region availability zone"
-  type        = string
-  default     = "a"
+  default     = "ami-0211d10fb4a04824a"
 }

@@ -1,0 +1,28 @@
+[33mcommit 432a3a2b634aa1453e16b26d382afa02c7784957[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: osafkhan <osafkhan@gmail.com>
+Date:   Mon Apr 26 08:11:40 2021 +0000
+
+    my first commit from mumbai
+
+[1mdiff --git a/mumbaifile b/mumbaifile[m
+[1mnew file mode 100644[m
+[1mindex 0000000..a1bf09a[m
+[1m--- /dev/null[m
+[1m+++ b/mumbaifile[m
+[36m@@ -0,0 +1,16 @@[m
+[32m+[m[32mvariable "aws_region" {[m
+[32m+[m[32m  description = "AWS region"[m
+[32m+[m[32m  type        = string[m
+[32m+[m[32m  default     = "eu-central-1"[m
+[32m+[m[32m}[m
+[32m+[m[41m [m
+[32m+[m[32mvariable "owner" {[m
+[32m+[m[32m  description = "Configuration owner"[m
+[32m+[m[32m  type        = string[m
+[32m+[m[32m}[m
+[32m+[m[41m [m
+[32m+[m[32mvariable "aws_region_az" {[m
+[32m+[m[32m  description = "AWS region availability zone"[m
+[32m+[m[32m  type        = string[m
+[32m+[m[32m  default     = "a"[m
+[32m+[m[32m}[m
