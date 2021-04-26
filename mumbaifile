@@ -3,3 +3,8 @@ variable "instance_ami" {
   type        = string
   default     = "ami-0211d10fb4a04824a"
 }
+variable "sbn_public_ip" {
+  description = "Assign public IP to the instance launched into the subnet"
+  type        = bool
+  default     = true
+}
